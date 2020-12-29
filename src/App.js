@@ -1,4 +1,9 @@
 import './App.css';
+import dog7 from './assets/dog7.jpg';
+
+
+
+
 
 function App() {
   return (
@@ -15,6 +20,7 @@ function App() {
         >
           This is the weather-app starter code for Build a Website II
         </a>
+      <img src={dog7}/>
       </header>
     </div>
   );
